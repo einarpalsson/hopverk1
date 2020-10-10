@@ -1,8 +1,17 @@
 @import 'styles/config';
 
 button {
-  padding: 1.125rem 4rem;
-  border: 1px solid;
+  color: $wheat;
+  background-color: $white;
+  padding: 1.125rem 5rem;
+  border: 1px solid $wheat;
   text-decoration: none;
+  white-space: nowrap;
   cursor: pointer;
+  margin-top: 2rem;
+
+  &:hover {
+    color: $white;
+    background-color: $wheat;
+  }
 }
