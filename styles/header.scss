@@ -11,3 +11,42 @@ header {
 .home-hero {
   height: 100vh;
 }
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.nav-selection {
+  margin: 1rem;
+  color: $darkgray;
+  font-weight: 500;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+.text-above-h1 {
+  color: wheat;
+  font-weight: 500;
+}
+
+.pumpkin-pie {
+  font-size: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
