@@ -1,6 +1,6 @@
 @import 'styles/config';
 
-button {
+.buttons {
   color: $wheat;
   background-color: $white;
   padding: 1.125rem 5rem;
@@ -8,10 +8,20 @@ button {
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
-  margin-top: 2rem;
 
   &:hover {
     color: $white;
     background-color: $wheat;
   }
+}
+
+.seperator {
+  display: flex;
+  align-items: center;
+}
+
+.seperator .line {
+  flex: 1;
+  height: 1px;
+  background-color: $gainsboro;
 }

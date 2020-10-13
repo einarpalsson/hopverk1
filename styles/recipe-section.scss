@@ -33,7 +33,10 @@
 
   .recipe-card-content2 > h3 {
     font-size: 1.5rem;
+  }
 
+  .recipe-card-content2 > a {
+    color: $wheat;
   }
 
   .recipe-card-content2 {
@@ -42,5 +45,14 @@
     justify-content: space-between;
     padding: 0 1.5rem 1.5rem 1.5rem;
     line-height: 2rem;
+  }
+}
+
+.seperator-marg {
+  margin-top: 2rem;
+
+  .recipe-section-btn {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 }
