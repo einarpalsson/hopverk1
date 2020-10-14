@@ -1,0 +1,20 @@
+.thenav {
+  background-color: $white-ish;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.nav-selection {
+  margin: 1rem;
+  color: $darkgray;
+  font-weight: 500;
+}

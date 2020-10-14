@@ -9,45 +9,12 @@ header {
   margin-bottom: 8rem;
 }
 
-.thenav {
-background-color: $white-ish;
-position: fixed;
-width: 100%;
-
-}
-
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .home-hero {
   height: 100vh;
   background-image: url(/img/header-cake.svg);
   background-size: 50% 100%;
   background-repeat: no-repeat;
   background-position: right;
-}
-
-/*.nav-bar {
-  background-color: $white-ish;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 4rem;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
-}*/
-
-.nav-selection {
-  margin: 1rem;
-  color: $darkgray;
-  font-weight: 500;
 }
 
 .content {
