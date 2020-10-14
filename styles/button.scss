@@ -1,27 +1,27 @@
 @import 'styles/config';
 
 .buttons {
-  color: $wheat;
   background-color: $white;
-  padding: 1.125rem 5rem;
   border: 1px solid $wheat;
+  color: $wheat;
+  cursor: pointer;
+  padding: 1.125rem 5rem;
   text-decoration: none;
   white-space: nowrap;
-  cursor: pointer;
 
   &:hover {
-    color: $white;
     background-color: $wheat;
+    color: $white;
   }
 }
 
 .seperator {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .seperator .line {
+  background-color: $gainsboro;
   flex: 1;
   height: 1px;
-  background-color: $gainsboro;
 }

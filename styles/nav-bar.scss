@@ -5,16 +5,16 @@
 }
 
 .nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
 }
 
 .nav-selection {
-  margin: 1rem;
   color: $darkgray;
   font-weight: 500;
+  margin: 1rem;
 }
