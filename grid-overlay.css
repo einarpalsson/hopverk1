@@ -1,6 +1,6 @@
 /*:root {
   --offset: 10px;
-  --max_width: 1400px;
+  --max_width: 1290px;
   --columns: 12;
   --gutter: 20px;
   --color: hsla(204, 75%, 75%, 0.25);
@@ -21,7 +21,7 @@ html {
 }
 
 html::before {
-  content: '';
+  content: "";
 
   position: absolute;
   top: 0;

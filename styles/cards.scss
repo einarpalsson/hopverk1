@@ -1,4 +1,4 @@
-@import 'styles/config';
+@import "styles/config";
 
 .recipe-card {
   background-color: $white;
@@ -7,6 +7,7 @@
   line-height: 2rem;
   margin-bottom: 0.7rem;
   margin-top: 0.7rem;
+  box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.05);
 
   .recipe-card-content {
     color: $darkgray;
