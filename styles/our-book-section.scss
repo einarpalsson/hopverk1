@@ -1,0 +1,21 @@
+@import 'styles/config';
+
+.book-section {
+  background: linear-gradient($linen, $linen 80%, $white 25%);
+}
+
+.book-hero{
+  background-image: url('/img/our-book.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+
+.texti {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-btn {
+  background-color: $trans;
+}
