@@ -1,5 +1,46 @@
 @import 'styles/config';
 
-.lol {
-  background: blue;
+.recipe-page-ingredients {
+  align-items: flex-end;
+  color: #d0d0d0;
+  display: flex;
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  height: 53px;
+  left: 0;
+  line-height: 53px;
+  position: static;
+  top: 0;
+  width: 214px;
+}
+
+.recipe-for-the-dough-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  p {
+    font-weight: 400;
+  }
+}
+
+.list-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  .list-number {
+    color: #e3cdb1;
+    font-size: 36px;
+    width: 14px;
+  }
+
+  .list-text {
+    color: #9b9b9b;
+    font-size: 18px;
+    margin-left: 50px;
+  }
 }
