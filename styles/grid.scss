@@ -1,4 +1,4 @@
-@import "styles/config";
+@import 'styles/config';
 
 .grid {
   margin: 0 auto;
@@ -19,18 +19,20 @@
   width: 100%;
 }
 
-@for $i from 1 through 8 {
+$grid-columns: 12;
+
+@for $i from 1 through $grid-columns {
   .col-#{$i} {
-    width: 8.333333333% * $i;
+    width: percentage($i / $grid-columns);
   }
 }
 
-.offset-col-10 {
-  margin-left: 75%;
-}
+$offset-columns: 12;
 
-.offset-col-2 {
-  margin-left: 8.333333333%;
+@for $i from 1 through $offset-columns {
+  .offset-col-#{$i} {
+    margin-left: percentage($i / $grid-columns);
+  }
 }
 
 .offsetright-col-12 {
