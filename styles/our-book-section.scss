@@ -4,18 +4,35 @@
   background: linear-gradient($linen, $linen 80%, $white 25%);
 }
 
-.book-hero{
-  background-image: url('/img/our-book.svg');
-  background-position: right;
-  background-repeat: no-repeat;
+//.book-hero{
+//  background-image: url('/img/our-book.svg');
+//  background-position: right;
+//  background-repeat: no-repeat;
+//}
+
+.book-btn {
+  background-color: $trans;
 }
 
-
-.texti {
+.book-content {
+  height: 100vh;
   display: flex;
   flex-direction: row;
 }
 
-.book-btn {
-  background-color: $trans;
+.book-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-book-mynd {
+  display: flex;
+  padding-top: 10rem;
+}
+
+
+.our-book {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
