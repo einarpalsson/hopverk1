@@ -11,6 +11,8 @@
   height: 53px;
   left: 0;
   line-height: 53px;
+  margin-bottom: 35px;
+  margin-top: 50px;
   position: static;
   top: 0;
   width: 214px;
@@ -42,5 +44,20 @@
     color: #9b9b9b;
     font-size: 18px;
     margin-left: 50px;
+  }
+}
+
+.recipe-directions {
+  color: #d0d0d0;
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  margin-bottom: 35px;
+  margin-top: 40px;
+}
+
+.method-container {
+  p {
+    color: #d0d0d0;
+    margin-bottom: 1rem;
   }
 }
