@@ -39,11 +39,18 @@
 .pumpkin-pie {
   font-size: 3.75rem;
   margin-bottom: 3rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.text-under-h1 {
+  color: $dimgray;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 2rem;
 }
 
 .header-btn {
-  background-color: $white;
+  background-color: $white-ish;
   border: 1px solid $wheat;
   color: $wheat;
   cursor: pointer;
