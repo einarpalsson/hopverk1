@@ -1,0 +1,41 @@
+@import "styles/config";
+
+.subscribe {
+  background-color: $black;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8.125rem;
+  padding-top: 8.125rem;
+}
+
+.email-input {
+  font-size: 0.875rem;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  box-shadow: none;
+  background-color: $trans;
+  color: $white;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid $wheat;
+  height: 2rem;
+  width: 17.5rem;
+
+  &::placeholder {
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: $white;
+  }
+}
+
+.subscribe-text > h2 {
+  color: $white;
+}
