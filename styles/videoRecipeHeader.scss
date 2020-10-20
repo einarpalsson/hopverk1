@@ -1,1 +1,64 @@
 @import 'styles/config';
+
+.hero-section {
+  background-image: url('/img/hero-vid.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  height: 100vh;
+}
+
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.hero-section-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+.hero-section-pumpkin-pie {
+  font-size: 3.75rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+
+  /* breyta lit á stöfum */
+}
+
+.hero-section-description-container {
+  margin-bottom: 2rem;
+
+  .hero-section-first-word {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+
+    /* breyta lit á stöfum */
+  }
+
+  .hero-section-second-word {
+    color: #5e5b69;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 1rem;
+
+    /* breyta lit á stöfum */
+  }
+}
+
+.hero-section-text-under-h1 {
+  color: $dimgray;   /* breyta lit á stöfum */
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 2rem;
+
+  @media (max-width: 899px) {
+    display: none;
+  }
+}
