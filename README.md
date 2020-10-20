@@ -5,12 +5,14 @@
 
 *14/10/2020*
 ## Einar: 
-  - Forsíða
-  - Nav-bar
-  - Footer
+  - Forsíða ✓
+    - Media query
+  - Nav-bar ✓
+      - Mobile Nav-bar
+  - Footer ✓
 
 ## Dagbjört
-  - The method síðan
+  - The method síðan ✓
   - Útfærsla á video-method síðu (mögulega)
 
 ## Ásbjörn
