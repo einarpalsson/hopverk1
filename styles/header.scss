@@ -26,3 +26,9 @@ header {
   font-weight: 500;
   margin: 1rem;
 }
+
+.logo {
+  &:hover {
+    cursor: pointer;
+  }
+}
