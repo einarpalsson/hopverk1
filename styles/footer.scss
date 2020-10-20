@@ -44,3 +44,69 @@ input {
   text-align: center;
   line-height: 1.0625rem;
 }
+
+.ju-text {
+  font-size: 1.125rem;
+  color: $black;
+  line-height: 17px;
+}
+
+.ju-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials1  {
+  background-image: url('/img/facebook.svg');
+  background-position: center;
+  background-size:60%;
+  background-repeat: no-repeat;
+  border: 2px solid $wheat;
+  border-radius: 1.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1.25rem;
+}
+
+.socials2 {
+  background-image: url('/img/twitter.svg');
+  background-position: center;
+  background-size:60%;
+  background-repeat: no-repeat;
+  border: 2px solid $wheat;
+  border-radius: 1.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1.25rem;
+}
+
+.socials3 {
+  background-image: url('/img/youtube.svg');
+  background-position: center;
+  background-size:60%;
+  background-repeat: no-repeat;
+  border: 2px solid $wheat;
+  border-radius: 1.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1.25rem;
+}
+
+.ju-link {
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 21px;
+
+
+}
+
+.link {
+    color: $light-grey;
+  }
+
+.ju-content {
+  margin-bottom: 6.5rem;
+  margin-top: 6.5rem;
+}
