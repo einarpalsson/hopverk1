@@ -4,11 +4,12 @@
   background-image: url('/img/hero-vid.png');
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  background-size: 60% 100%;
   height: 100vh;
 }
 
 .hero-section-content {
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.0001) 0%, #000 100%);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -23,37 +24,34 @@
 }
 
 .hero-section-pumpkin-pie {
+  color: #fff;
   font-size: 3.75rem;
   margin-bottom: 3rem;
   margin-top: 1rem;
-
-  /* breyta lit á stöfum */
 }
 
 .hero-section-description-container {
   margin-bottom: 2rem;
 
   .hero-section-first-word {
+    color: #fff;
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: bold;
-
-    /* breyta lit á stöfum */
   }
 
   .hero-section-second-word {
     color: #5e5b69;
+    color: #fff;
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 300;
     margin-right: 1rem;
-
-    /* breyta lit á stöfum */
   }
 }
 
 .hero-section-text-under-h1 {
-  color: $dimgray;   /* breyta lit á stöfum */
+  color: #9b9b9b;
   font-size: 1.125rem;
   font-weight: 300;
   line-height: 2rem;
