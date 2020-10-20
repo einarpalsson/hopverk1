@@ -27,3 +27,20 @@
     margin-right: 5rem;
   }
 }
+
+/*.vid-mynd {
+  position: relative;
+}
+
+.vid-mynd > .imgtest {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.875rem;
+  height: 2.34375rem;
+}*/
+
+.vid-mynd > .vid-imgs {
+  width: 100%;
+}
