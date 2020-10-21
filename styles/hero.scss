@@ -5,24 +5,20 @@
 .hero {
   background-color: $white-ish;
   margin: auto;
-  //margin-bottom: 8rem;
   width: 100%;
   height: calc(100vh - 5rem);
   padding-top: 9.6875rem;
-
-  .home-hero {
-    background-image: url('/img/header-cake.svg');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 50% 100%;
-
+  background-image: url('/img/header-cake.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
 
     @media (max-width: 899px) {
+      background-position: left;
       height: 100%;
       width: 100%;
       background-size: cover;
     }
-  }
 }
 
 
