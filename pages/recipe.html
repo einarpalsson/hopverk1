@@ -8,7 +8,8 @@
     <title>Hópverkefni 1</title>
   </head>
   <body>
-    <header>
+
+    <header class="">
       <div class="fixed-header">
         <div class="grid">
           <div class="row">
@@ -17,11 +18,22 @@
                 <div class="logo">
                   <a href="/index.html"><img src="/img/logo.svg" alt="logo" /></a>
                 </div>
+
+                <div class="burger" onclick="window.toggle_menu()">
+                  <img class="lines" src="/img/burger.svg" />
+                  <img class="ex" src="/img/x.svg" />
+                </div>
+
                 <div class="nav-links">
-                  <a class="header-selection" href="./recipe.html"
-                    >Recipes</a>
-                  <a class="header-selection" href="./videoRecipe.html"
-                    >Videos</a>
+                  <a class="header-selection mobile-selection" href="index.html"
+                    >Home</a
+                  >
+                  <a class="header-selection" href="./pages/recipe.html"
+                    >Recipes</a
+                  >
+                  <a class="header-selection" href="./pages/videoRecipe.html"
+                    >Videos</a
+                  >
                   <a class="header-selection" href="">About us</a>
                 </div>
               </div>
@@ -29,53 +41,55 @@
           </div>
         </div>
       </div>
-
-      <div class="home-hero">
-        <div class="grid">
-          <div class="content">
-            <div class="hero-text">
-              <div class="row">
-                <div class="col col-4">
+    </header>
+      <section class="hero">
+        <div class="home-hero">
+          <div class="grid">
+            <div class="content">
+              <div class="hero-text">
+                <div class="row">
+                  <div class="col col-4">
+                  </div>
                 </div>
-              </div>
 
-              <div class="row">
-                <div class="col col-5">
-                  <h1 class="pumpkin-pie">Pumpkin pie</h1>
+                <div class="row">
+                  <div class="col col-5">
+                    <h1 class="pumpkin-pie">Pumpkin pie</h1>
+                  </div>
                 </div>
-              </div>
 
-              <div class="description-container">
-                <span class="first-word">
-                  <img class="img" src="/img/Level-Icon.svg" alt="" />Easy
-                </span>
-                <span class="second-word">recipe</span>
-                <span class="first-word">
-                  <img class="img" src="/img/Servings-Icon.svg" alt="" />6
-                </span>
-                <span class="second-word">people</span>
-                <span class="first-word">
-                  <img class="img" src="/img/Preparation-Icon.svg" alt="" />1
-                </span>
-                <span class="second-word">hour</span>
-              </div>
-
-              <div class="row">
-                <div class="col col-4">
-                  <span class="text-under-h1"
-                    >Pumpkin pie is a sweet dessert pie with a spiced,
-                    pumpkin-based custard filling. The pumpkin is a symbol of
-                    harvest time, and pumpkin pie is often eaten during the fall
-                    and early winter.</span
-                  >
+                <div class="description-container">
+                  <span class="first-word">
+                    <img class="img" src="/img/Level-Icon.svg" alt="" />Easy
+                  </span>
+                  <span class="second-word">recipe</span>
+                  <span class="first-word">
+                    <img class="img" src="/img/Servings-Icon.svg" alt="" />6
+                  </span>
+                  <span class="second-word">people</span>
+                  <span class="first-word">
+                    <img class="img" src="/img/Preparation-Icon.svg" alt="" />1
+                  </span>
+                  <span class="second-word">hour</span>
                 </div>
-              </div>
+
+                <div class="row">
+                  <div class="col col-4">
+                    <span class="text-under-h1"
+                      >Pumpkin pie is a sweet dessert pie with a spiced,
+                      pumpkin-based custard filling. The pumpkin is a symbol of
+                      harvest time, and pumpkin pie is often eaten during the fall
+                      and early winter.</span
+                    >
+                  </div>
+                </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </section>
+
 
     <main>
       <div class="The method">
