@@ -8,7 +8,7 @@
     <title>Hópverkefni 1</title>
   </head>
   <body>
-    <header>
+    <header class="">
       <div class="fixed-header">
         <div class="grid">
           <div class="row">
@@ -17,7 +17,16 @@
                 <div class="logo">
                   <a href="/index.html"><img src="/img/logo.svg" alt="logo" /></a>
                 </div>
+
+                <div class="burger" onclick="window.toggle_menu()">
+                  <img class="lines" src="/img/burger.svg" />
+                  <img class="ex" src="/img/x.svg" />
+                </div>
+
                 <div class="nav-links">
+                  <a class="header-selection mobile-selection" href="index.html"
+                    >Home</a
+                  >
                   <a class="header-selection" href="./pages/recipe.html"
                     >Recipes</a
                   >
@@ -42,7 +51,7 @@
             <div class="content">
               <div class="hero-text">
                 <div class="row">
-                  <div class="col col-4 col-8">
+                  <div class="col col-4 col-md-12">
                     <span class="text-above-h1">Our latest recipe</span>
                   </div>
                 </div>
@@ -54,7 +63,7 @@
                 </div>
 
                 <div class="row">
-                  <div class="col col-5 col-md-8">
+                  <div class="col col-5 col-md-12">
                     <span class="text-under-h1"
                       >Pumpkin pie is a sweet dessert pie with a spiced,<br>
                       pumpkin-based custard filling. The pumpkin is a symbol of
@@ -65,7 +74,7 @@
                 </div>
 
                 <div class="row">
-                  <div class="col col-2 col-md-5">
+                  <div class="col col-2 col-md-12">
                     <button class="header-btn">See more</button>
                   </div>
                 </div>
@@ -96,7 +105,7 @@
           </div>
 
           <div class="row">
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <div class="recipe-card">
                 <div class="mynd">
                   <img src="/img/recipe-card-img.svg" alt="" />
@@ -113,7 +122,7 @@
               </div>
             </div>
 
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <div class="recipe-card">
                 <div class="mynd">
                   <img src="/img/recipe-card-img.svg" alt="" />
@@ -130,7 +139,7 @@
               </div>
             </div>
 
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <div class="recipe-card">
                 <div class="mynd">
                   <img src="/img/recipe-card-img.svg" alt="" />
@@ -149,7 +158,7 @@
           </div>
 
           <div class="row">
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <div class="recipe-card">
                 <div class="mynd">
                   <img src="/img/recipe-card-img.svg" alt="" />
@@ -166,7 +175,7 @@
               </div>
             </div>
 
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <div class="recipe-card">
                 <div class="mynd">
                   <img src="/img/recipe-card-img.svg" alt="" />
@@ -183,7 +192,7 @@
               </div>
             </div>
 
-            <div class="col col-4">
+            <div class="col col-4 col-md-6">
               <div class="recipe-card">
                 <div class="mynd">
                   <img src="/img/recipe-card-img.svg" alt="" />
@@ -272,7 +281,7 @@
             <div class="col col-4">
               <div class="recipe-card">
                 <div class="vid-mynd">
-                  <!--<img class="imgtest" src="/img/Play-Icon.png" alt="">-->
+                  <img class="imgtest" src="/img/Play-Icon.png" alt="">
                   <img class="vid-imgs" src="/img/vid-img1.png" alt="" />
                 </div>
 
@@ -290,7 +299,7 @@
             <div class="col col-4">
               <div class="recipe-card">
                 <div class="vid-mynd">
-                  <!--<img class="imgtest" src="/img/Play-Icon.png" alt="">-->
+                  <img class="imgtest" src="/img/Play-Icon.png" alt="">
                   <img class="vid-imgs" src="/img/vid-img2.png" alt="" />
                 </div>
 
@@ -308,7 +317,7 @@
             <div class="col col-4">
               <div class="recipe-card">
                 <div class="vid-mynd">
-                  <!--<img class="imgtest" src="/img/Play-Icon.png" alt="">-->
+                  <img class="imgtest" src="/img/Play-Icon.png" alt="">
                   <img class="vid-imgs" src="/img/vid-img3.png" alt="" />
                 </div>
 
@@ -337,51 +346,52 @@
       </section>
     </main>
 
-<footer>
-  <section class="subscribe">
-    <div class="grid">
-      <div class="row">
-        <div class="col col-12">
-          <div class="subscribe-container">
-            <div class="subscribe-text recipe-section-text">
-              <span class="get-rdy">Craving more?</span>
-              <h2>Subscribe to our newsletter</h2>
-            </div>
-            <div class="email-input">
-              <form action="/email">
-                  <div><label for="email">Email</label></div>
-                  <div><input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" placeholder="email@example.com"></div>
-              </form>
-            </div>
-            <div class="footer-btn">
-              <button class="buttons">Subscribe</button>
+    <footer>
+      <section class="subscribe">
+        <div class="grid">
+          <div class="row">
+            <div class="col col-12">
+              <div class="subscribe-container">
+                <div class="subscribe-text recipe-section-text">
+                  <span class="get-rdy">Craving more?</span>
+                  <h2>Subscribe to our newsletter</h2>
+                </div>
+                <div class="email-input">
+                  <form action="/email">
+                      <div><label for="email">Email</label></div>
+                      <div><input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" placeholder="email@example.com"></div>
+                  </form>
+                </div>
+                <div class="footer-btn">
+                  <button class="buttons">Subscribe</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="footer2">
-    <div class="join-us">
-      <div class="ju-content">
-        <span class="ju-text">Come and join us for more recipes</span>
-        <div class="ju-social">
-          <div class="socials1">
+      <section class="footer2">
+        <div class="join-us">
+          <div class="ju-content">
+            <span class="ju-text">Come and join us for more recipes</span>
+            <div class="ju-social">
+              <div class="socials1">
 
-          </div>
-          <div class="socials2">
+              </div>
+              <div class="socials2">
 
-          </div>
-          <div class="socials3">
+              </div>
+              <div class="socials3">
 
+              </div>
+            </div>
+            <a class="link" href="">yumyum.com</a>
           </div>
         </div>
-        <a class="link" href="">yumyum.com</a>
-      </div>
-    </div>
-  </section>
-</footer>
+      </section>
+    </footer>
 
+    <script src="/script.js"></script>
   </body>
 </html>

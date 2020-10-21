@@ -2,7 +2,7 @@
 
 .recipe-section {
   background: linear-gradient($white, $white 30%, $white-ish 25%);
-  padding-bottom: 5rem;
+  padding: 8rem 0;
 }
 
 .get-rdy {
@@ -28,7 +28,7 @@
   }
 }
 
-/*.vid-mynd {
+.vid-mynd {
   position: relative;
 }
 
@@ -39,7 +39,7 @@
   transform: translate(-50%, -50%);
   width: 1.875rem;
   height: 2.34375rem;
-}*/
+}
 
 .vid-mynd > .vid-imgs {
   width: 100%;

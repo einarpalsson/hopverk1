@@ -25,6 +25,22 @@
   }*/
 }
 
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    width: percentage($i / $grid-columns);
+  }
+}
+
+@for $i from 1 through $offset-columns {
+  .offset-col-#{$i} {
+    margin-left: percentage($i / $grid-columns);
+  }
+}
+
+.offsetright-col-12 {
+  margin-right: 8.333333333%;
+}
+
 //overflow skítamix
 @media (max-width: 1326px) {
   .row {
@@ -42,6 +58,12 @@
   }
 }
 
+@for $i from 1 through $offset-columns {
+  .offset-col-md-#{$i} {
+    margin-left: percentage($i / $grid-columns);
+  }
+}
+
 //mobile
 @media (max-width: 499px) {
   @for $i from 1 through $grid-columns {
@@ -51,18 +73,3 @@
   }
 }
 
-@for $i from 1 through $grid-columns {
-  .col-#{$i} {
-    width: percentage($i / $grid-columns);
-  }
-}
-
-@for $i from 1 through $offset-columns {
-  .offset-col-#{$i} {
-    margin-left: percentage($i / $grid-columns);
-  }
-}
-
-.offsetright-col-12 {
-  margin-right: 8.333333333%;
-}
