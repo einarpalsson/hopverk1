@@ -17,6 +17,17 @@
   .black-text {
     color: $diff-black;
   }
+
+  @media (max-width: 499px) {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 499px) {
+  .recipe-section-text {
+    text-align: center;
+  }
 }
 
 .seperator-marg {

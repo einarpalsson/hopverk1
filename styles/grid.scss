@@ -17,12 +17,6 @@
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
-
-  /*@media (max-width: 899px) {
-    width: 69.76744186%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }*/
 }
 
 @for $i from 1 through $grid-columns {
@@ -69,6 +63,12 @@
   @for $i from 1 through $grid-columns {
     .col-sm-#{$i} {
       width: percentage($i / $grid-columns);
+    }
+  }
+
+  @for $i from 1 through $grid-columns {
+    .offset-col-sm-#{$i} {
+      width: percentage($i / $grid-columns)
     }
   }
 }
