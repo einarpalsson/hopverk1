@@ -17,6 +17,10 @@
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+
+  @media (max-width: 599px) {
+    width: 38.682170542%;
+  }
 }
 
 @for $i from 1 through $grid-columns {

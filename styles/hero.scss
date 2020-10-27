@@ -50,6 +50,14 @@
   font-size: 3.75rem;
   margin-bottom: 3rem;
   margin-top: 1rem;
+
+  @media (max-width: 899px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 499px) {
+    font-size: 2rem;
+  }
 }
 
 .text-under-h1 {

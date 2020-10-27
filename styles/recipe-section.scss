@@ -3,6 +3,10 @@
 .recipe-section {
   background: linear-gradient($white, $white 30%, $white-ish 25%);
   padding: 8rem 0;
+
+  @media (max-width: 899px) {
+    padding: 2rem 0;
+  }
 }
 
 .get-rdy {
@@ -12,6 +16,7 @@
 .recipe-section-text > h2 {
   color: $light-grey;
   font-size: 2.5rem;
+  font-weight: bold;
   margin-bottom: 2rem;
 
   .black-text {
@@ -20,7 +25,8 @@
 
   @media (max-width: 499px) {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: 0;
   }
 }
 
@@ -40,6 +46,11 @@
   .recipe-section-btn {
     margin-left: 5rem;
     margin-right: 5rem;
+
+    @media (max-width: 499px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 
