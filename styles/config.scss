@@ -2,7 +2,6 @@ $max-width: 1290px;
 $grid-columns: 12;
 $offset-columns: 12;
 
-
 //colors
 $black: #000;
 $darkgray: #9b9b9b9b;
@@ -14,6 +13,8 @@ $diff-black: #333;
 $gainsboro: #e7e7e7e7;
 $linen: #f7f1eb;
 $trans: transparent;
-$dimgray: #5E5B69;
+$dimgray: #5e5b69;
 
-
+// Breakpoints
+$mobile: 499px;
+$ipad: 899px;
