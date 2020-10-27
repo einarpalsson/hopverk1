@@ -67,8 +67,8 @@
   }
 
   @for $i from 1 through $grid-columns {
-    .offset-col-sm-#{$i} {
-      width: percentage($i / $grid-columns)
+    .offset-sm-col-#{$i} {
+      margin-left: percentage($i / $grid-columns)
     }
   }
 }
