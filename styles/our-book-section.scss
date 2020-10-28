@@ -38,6 +38,7 @@
 
   @media (max-width: 499px) {
     padding-top: 0;
+    overflow: auto;
   }
 }
 
@@ -78,6 +79,7 @@
   }
 
   .our-book-mynd > img {
-    height: 55%;
+    height: 95%;
+    width: 100%;
   }
 }

@@ -23,10 +23,26 @@
     color: $diff-black;
   }
 
+  @media (max-width: 899px) {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
   @media (max-width: 499px) {
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 899px) {
+  .recipe-section-text {
+    text-align: center;
+  }
+
+  .md-no-display {
+    display: none;
   }
 }
 
@@ -37,20 +53,6 @@
 
   .sm-no-display {
     display: none;
-  }
-}
-
-.seperator-marg {
-  margin-top: 2rem;
-
-  .recipe-section-btn {
-    margin-left: 5rem;
-    margin-right: 5rem;
-
-    @media (max-width: 499px) {
-      margin-left: 0;
-      margin-right: 0;
-    }
   }
 }
 
