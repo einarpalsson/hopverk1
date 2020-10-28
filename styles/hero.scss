@@ -4,25 +4,23 @@
 
 .hero {
   background-color: $white-ish;
-  margin: auto;
-  width: 100%;
-  height: calc(100vh - 5rem);
-  min-height: 800px;
-  padding-top: 9.6875rem;
   background-image: url('/img/header-cake.svg');
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50% 100%;
+  height: calc(100vh - 5rem);
+  margin: auto;
+  min-height: 800px;
+  padding-top: 9.6875rem;
+  width: 100%;
 
-    @media (max-width: 899px) {
-      background-position: left;
-      height: 100%;
-      width: 100%;
-      background-size: cover;
-    }
+  @media (max-width: 899px) {
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
 }
-
-
 
 .content {
   display: flex;
@@ -62,8 +60,8 @@
 
 .text-under-h1 {
   color: $dimgray;
-  font-weight: 300;
   font-size: 1.125rem;
+  font-weight: 300;
   line-height: 2rem;
 
   @media (max-width: 899px) {

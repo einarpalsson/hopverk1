@@ -24,15 +24,15 @@
   }
 
   @media (max-width: 899px) {
-    text-align: center;
     font-size: 2rem;
     margin-bottom: 0;
+    text-align: center;
   }
 
   @media (max-width: 499px) {
-    text-align: center;
     font-size: 1.25rem;
     margin-bottom: 0;
+    text-align: center;
   }
 }
 
@@ -61,12 +61,12 @@
 }
 
 .vid-mynd > .imgtest {
-  position: absolute;
+  height: 2.34375rem;
   left: 50%;
+  position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 1.875rem;
-  height: 2.34375rem;
 }
 
 .vid-mynd > .vid-imgs {

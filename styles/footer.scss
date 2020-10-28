@@ -1,15 +1,15 @@
-@import "styles/config";
+@import 'styles/config';
 
 .subscribe {
   background-color: $black;
 }
 
 .subscribe-container {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   height: 20.625rem;
+  justify-content: space-between;
 
   @media (max-width: 899px) {
     flex-direction: column;
@@ -18,10 +18,10 @@
 }
 
 .email-input {
-  font-size: 0.875rem;
   color: $white;
   display: flex;
   flex-direction: column;
+  font-size: 0.875rem;
 
   @media (max-width: 899px) {
     padding: 2rem 0;
@@ -29,19 +29,19 @@
 }
 
 input {
-  box-shadow: none;
   background-color: $trans;
-  color: $white;
-  outline: 0;
   border: 0;
   border-bottom: 1px solid $wheat;
+  box-shadow: none;
+  color: $white;
   height: 2rem;
+  outline: 0;
   width: 17.5rem;
 
   &::placeholder {
+    color: $white;
     font-size: 1.375rem;
     font-weight: bold;
-    color: $white;
 
     @media (max-width: 499px) {
       font-size: 1rem;
@@ -54,12 +54,12 @@ input {
 }
 
 .join-us {
-  height: 20.625rem;
-  text-align: center;
-  line-height: 1.0625rem;
   display: flex;
   flex-direction: column;
+  height: 20.625rem;
   justify-content: center;
+  line-height: 1.0625rem;
+  text-align: center;
 
   @media (max-width: 499px) {
     height: 12.5rem;
@@ -67,28 +67,28 @@ input {
 }
 
 .ju-text {
-  font-size: 1.125rem;
   color: $black;
+  font-size: 1.125rem;
   line-height: 17px;
 }
 
 .ju-social {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
 }
 
-.socials1  {
+.socials1 {
   background-image: url('/img/facebook.svg');
   background-position: center;
-  background-size:60%;
   background-repeat: no-repeat;
+  background-size: 60%;
   border: 2px solid $wheat;
   border-radius: 1.5rem;
   height: 2.5rem;
-  width: 2.5rem;
   margin: 1.25rem;
+  width: 2.5rem;
 
   @media (max-width: 499px) {
     background-image: url('/img/facebook-gray.svg');
@@ -99,13 +99,13 @@ input {
 .socials2 {
   background-image: url('/img/twitter.svg');
   background-position: center;
-  background-size:60%;
   background-repeat: no-repeat;
+  background-size: 60%;
   border: 2px solid $wheat;
   border-radius: 1.5rem;
   height: 2.5rem;
-  width: 2.5rem;
   margin: 1.25rem;
+  width: 2.5rem;
 
   @media (max-width: 499px) {
     background-image: url('/img/twitter-gray.svg');
@@ -116,13 +116,13 @@ input {
 .socials3 {
   background-image: url('/img/youtube.svg');
   background-position: center;
-  background-size:60%;
   background-repeat: no-repeat;
+  background-size: 60%;
   border: 2px solid $wheat;
   border-radius: 1.5rem;
   height: 2.5rem;
-  width: 2.5rem;
   margin: 1.25rem;
+  width: 2.5rem;
 
   @media (max-width: 499px) {
     background-image: url('/img/youtube-gray.svg');
@@ -131,11 +131,11 @@ input {
 }
 
 .ju-link {
-  font-weight: 300;
   font-size: 0.875rem;
+  font-weight: 300;
   line-height: 21px;
 }
 
 .link {
-    color: $light-grey;
+  color: $light-grey;
 }
