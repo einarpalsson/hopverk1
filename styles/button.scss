@@ -25,6 +25,23 @@
   }
 }
 
+.header-btn {
+  background-color: $trans;
+  border: 1px solid $wheat;
+  color: $wheat;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 1.125rem 0;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 15.625rem;
+
+  &:hover {
+    background-color: $wheat;
+    color: $white;
+  }
+}
+
 .seperator {
   align-items: center;
   display: flex;

@@ -14,6 +14,12 @@
   background-color: $trans;
 }
 
+@media (min-width: 899px) {
+  .mobile-only-btn {
+    display: none;
+  }
+}
+
 .book-content {
   display: flex;
   flex-direction: row;
