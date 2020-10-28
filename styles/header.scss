@@ -7,68 +7,6 @@ header {
   position: relative;
   width: 100%;
   z-index: 2;
-
-  &.menu-open {
-    height: 100vh;
-
-    .fixed-header {
-      background-color: $white;
-      height: 100%;
-      position: fixed;
-      width: 100%;
-
-      .header-content {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-
-        .burger {
-          display: block !important;
-
-          .lines {
-            display: none;
-          }
-
-          .ex {
-            display: block;
-          }
-        }
-
-        .mobile-selection {
-          display: block;
-        }
-
-        .nav-links {
-          background-color: $white;
-          display: flex;
-          flex-direction: column;
-          height: calc(100vh - 5rem);
-          justify-content: space-evenly;
-          text-align: center;
-          width: 100%;
-
-          .header-selection {
-            border-bottom: 1px solid;
-            border-color: $black;
-            color: $black;
-            display: flex;
-            flex: 1;
-            flex-direction: column;
-            font-family: 'Playfair Display', serif;
-            font-size: 3.75rem;
-            font-weight: bold;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-
-            &:last-child {
-              border-bottom: none;
-            }
-          }
-        }
-      }
-    }
-  }
 }
 
 .mobile-selection {

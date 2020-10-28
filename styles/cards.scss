@@ -24,6 +24,9 @@
 
   .recipe-card-content2 > a {
     color: $wheat;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .recipe-card-content2 {
@@ -32,12 +35,6 @@
     justify-content: space-between;
     line-height: 2rem;
     padding: 0 1.5rem 1.5rem;
-
-    .read-more {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
   }
 }
 
