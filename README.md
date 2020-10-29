@@ -1,12 +1,12 @@
 # Hópverkefni 1
 
-Þetta hópverkefni, unnið af Einari, Dagbjörtu og Ásbirni er vefsíða byggð á hönnun [Meghan Regior](https://twitter.com/meghanregior) og er síða með ýmsum uppskriftum og skemmtilegheitum.
+Þetta hópverkefni, unnið af Einari, Dagbjörtu og Ásbirni er vefsíða byggð á hönnun [Meghan Regior](https://twitter.com/meghanregior) og er síða með aðgengilegum og skemmtilegum uppskriftum.
 
 ## Keyrsla verkefnis
 
 - `npm run dev`: keyrir verkefnið og opnar síðuna í nýjum glugga í vafra.
-- `npm run lint`: keyrir kóða verkefnis í gegnum stylelint sem eru stalar sem fara á eftir í uppsetningu CSS og SCSS kóða.
-- [Hér](www.youtube.com) er síðan uppsett á heimasvæði nemenda í verkefninu.
+- `npm run lint`: keyrir kóða verkefnis í gegnum stylelint sem eru staðlar fyrir uppsetningu CSS og SCSS kóða.
+- [Hér](https://www.youtube.com) er síðan uppsett á heimasvæði nemenda í verkefninu.
 
 ## Lýsing verkefnis
 
