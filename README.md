@@ -10,7 +10,7 @@
 
 ## Lýsing verkefnis
 
-Verkefninu er skipt upp í fjórar síður. Fyrst blasir við forsíða og þaðan er hægt að heimsækja þrjár undirsíður með meiri upplýsingum. Síðurnar eru því eftirfarandi:
+Verkefninu er skipt upp í 4 síður. Fyrst blasir við forsíða og þaðan er hægt að heimsækja þrjár undirsíður með meiri upplýsingum. Síðurnar eru því eftirfarandi:
 
 - Forsíða
 - Uppskriftavalmynd
@@ -19,13 +19,13 @@ Verkefninu er skipt upp í fjórar síður. Fyrst blasir við forsíða og það
 
 ### Uppsetning
 
-Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SCSS. Einnig er verkefnið örlítið snert af Javascript.
+Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SCSS. Í litlum hluta verkefnins notast við Javascript.
 
-Í verkefnamöppu eru tólf mismundandi skrár ásamt fimm möppum en við leyfum okkyr að horfa framhjá tveim möppum. `/styles` mappan inniheldur þrettán SCSS skrár sem útfærir allan CSS kóða verkefnisins. Möppurnar eru eftirfarandi í stafrófsröð: 
+Í verkefnamöppu eru 12 mismunandi skrár, ásamt 5 möppum en við leyfum okkur að horfa framhjá 2 þeirra. `/styles` mappan inniheldur 13 SCSS skrár eru grundvallaratriði CSS kóða verkefnisins. Möppurnar eru eftirfarandi í stafrófsröð: 
 
  - `button.scss` - Allir takkar í verkefninu.
  - `cards.scss` - Öll "cards" í verkefninu.
- - `config.scss` - Hér eru breytur sem notaðar eru í öllum öðrum skrá.
+ - `config.scss` - Hér eru breytur sem notaðar eru í öllum öðrum skrám.
  - `footer.scss` - Fóturinn (botninn) á öllum síðum í verkefninu.
  - `global.scss` - CSS kóði sem á að vera alls staðar. 
  - `grid.scss` - Grid útfærsla verkefnis.
@@ -35,7 +35,7 @@ Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SC
  - `our-book-section.scss` - SCSS kóði fyrir auglýsingu bókar á forsíðu.
  - `recipe-page.scss` - SCSS skjal fyrir uppskriftarsíðu.
  - `recipe-section.scss` - SCSS skjal fyrir svæði þar sem öll "cards" koma.
- - `videoRecipeHeader.scss` - SCSS skjal fyrir Video-uppskrift.
+ - `videoRecipeHeader.scss` - SCSS skjal fyrir video-uppskrift.
 
 >Þessi skjöl eru keyrð í gegnum `styles.scss` sem er "aðal" scss skjalið og útfrá því verður `styles.css` til. 
 
@@ -54,6 +54,6 @@ Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er
   - Github: `asbjornbaldvins`
 
 ## Að lokum
-Gutter hjá okkur er 20px, í samanburði við 30px hjá Óla. `Stimmikex` athugaði þetta fyrir okkur og við fengum grænt ljós á það og héldum því óbreyttu (það var meira vesen að breyta því en við hefðum gert ráð fyrir).
+Gutter hjá okkur er 20px, í samanburði við 30px hjá Óla. `Stimmikex` athugaði þetta fyrir okkur og við fengum grænt ljós (það var meira vesen að breyta því en við gerðum ráð fyrir).
 
-Notast var við Javascript kóða við útfærslu "hamborgara" valmyndarinnar og komumst við að því seinna meir að svoleiðis kóða ber að forðast en Óli var spurður að þessu og gaf grænt ljós. Athugasemd var bætt í kóða á þeim stað sem það á við. 
+Notast var við Javascript kóða við útfærslu "hamborgara" valmyndarinnar og komumst við að því seinna meir að slíkan kóða ber að forðast en spurt var Óla og honum fannst þetta í fínu lagi. Athugasemdum var bætt í kóða á þeim stöðum sem það átti við. 
