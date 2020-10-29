@@ -21,7 +21,9 @@ Verkefninu er skipt upp í fjórar síður. Fyrst blasir við forsíða og það
 
 Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SCSS. Einnig er verkefnið örlítið snert af Javascript.
 
-Í verkefnamöppu eru tólf mismundandi skrár ásamt fimm möppum en við leyfum okkyr að horfa framhjá tveim möppum.
+Í verkefnamöppu eru tólf mismundandi skrár ásamt fimm möppum en við leyfum okkyr að horfa framhjá tveim möppum. Styles mappan inniheldur 13 SCSS skrár sem útfærir allan CSS kóða verkefnisins. Möppurnar eru eftirfarandi: 
+
+ - `button.scss` - útfærir CSS kóða fyrir alla takka í verkefninu.
 
 ### Forsíða
 
