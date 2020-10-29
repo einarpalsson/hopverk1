@@ -54,6 +54,6 @@ Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er
   - Github: `asbjornbaldvins`
 
 ## Að lokum
-Gutter hjá okkur er 20px, í samanburði við 30px hjá Óla. `Stimmikex` athugaði þetta fyrir okkur og við fengum grænt lj+os á það og héldum því óbreyttu (það var meira vesen að breyta því en við hefðum gert ráð fyrir).
+Gutter hjá okkur er 20px, í samanburði við 30px hjá Óla. `Stimmikex` athugaði þetta fyrir okkur og við fengum grænt ljós á það og héldum því óbreyttu (það var meira vesen að breyta því en við hefðum gert ráð fyrir).
 
 Notast var við Javascript kóða við útfærslu "hamborgara" valmyndarinnar og komumst við að því seinna meir að svoleiðis kóða ber að forðast en Óli var spurður að þessu og gaf grænt ljós. Athugasemd var bætt í kóða á þeim stað sem það á við. 
