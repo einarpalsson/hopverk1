@@ -12,7 +12,6 @@
 
   &:hover {
     background-color: $wheat;
-    color: $white;
   }
 
   &:focus {
@@ -22,6 +21,15 @@
 
   @media (max-width: 499px) {
     font-weight: 500;
+  }
+}
+
+.button-links {
+  color: $wheat;
+  padding: 1.125rem 6rem;
+
+  &:hover {
+    color: $white;
   }
 }
 
