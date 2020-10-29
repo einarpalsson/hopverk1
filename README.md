@@ -10,7 +10,20 @@
 
 ## Lýsing verkefnis
 
-Verkefninu er skipt upp í fjórar síður. [Forsíðu](), [recipes](), [video]() og
+Verkefninu er skipt upp í fjórar síður. Fyrst blasir við forsíða og þaðan er hægt að heimsækja þrjár undirsíður með meiri upplýsingum. Síðurnar eru því eftirfarandi:
+
+- Forsíða
+- Uppskriftavalmynd
+- Uppskriftasíða
+- Video-uppskrift.
+
+#### Uppsetning
+
+Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SCSS. Einnig er verkefnið örlítið snert af Javascript.
+
+Í verkefnamöppu eru tólf mismundandi skrár ásamt fimm möppum en við leyfum okkyr að horfa framhjá tveim möppum.
+
+### Forsíða
 
 ## Ásbjörn
 
