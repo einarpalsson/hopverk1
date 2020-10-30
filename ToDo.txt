@@ -3,4 +3,7 @@ To do
   -mobile fyrir all.html
   -2 auka síður?
   -Header ves recipesíða
-  -
+  -Method media look - bæta við div? (flex fix)
+  -Skoða takka á videoheader
+    * Position: top og right fix.
+
