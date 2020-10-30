@@ -93,16 +93,13 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 899px) {
   .mobile-size-text {
     color: #5e5b69;
     display: block;
-    font-family: Poppins;
-    font-size: 15px;
+    font-family: 'Poppins';
     line-height: 24px;
     margin-bottom: 20px;
-    right: 23px;
-    top: 162px;
-    width: 269px;
+
   }
 }

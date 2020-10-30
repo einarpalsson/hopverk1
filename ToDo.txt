@@ -1,9 +1,14 @@
 To do
-  -Laga takka.
   -mobile fyrir all.html
   -2 auka síður?
-  -Header ves recipesíða
+  -Header ves recipesíða ✓
+    bæta við row ✓
+    flexa ✓
+    height á img ✓
+    margin á dæmið ✓
+
   -Method media look - bæta við div? (flex fix)
   -Skoða takka á videoheader
     * Position: top og right fix.
-
+ -HTML validator (shit)
+  -Laga takka.

@@ -72,9 +72,12 @@
 
   @media (max-width: 899px) {
     align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @media (max-width: 499px) {
     flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 20px;
   }
 
   .description-item-container {

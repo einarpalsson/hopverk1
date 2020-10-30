@@ -47,10 +47,10 @@ Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er
   - Netfang: epp5@hi.is 
   - Github: `Einarpalsson`
 ### Dagbjört
-  - Netfang: xxxX@hi.is
+  - Netfang: dth29@hi.is
   - Github: `Dagbjort`
 ### Ásbjörn
-  - Netfang: xxxX@hi.is
+  - Netfang: asb58@hi.is
   - Github: `asbjornbaldvins`
 
 ## Að lokum
