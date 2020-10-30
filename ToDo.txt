@@ -8,7 +8,14 @@ To do
     margin á dæmið ✓
 
   -Method media look - bæta við div? (flex fix)
-  -Skoða takka á videoheader
-    * Position: top og right fix.
+    nýtt div ✓
+    flex á það div ✓
+    col col-6 ✓
+    col col-12 ✓
+    margin 3rem þar sem línubil er langt ✓
+    ekkert offset-col á Method ✓
+    smá margin í media query ✓
+  -Skoða takka á videoheader  ✓
+    * Position: top og right fix. ✓
  -HTML validator (shit)
-  -Laga takka.
+  -Laga takka.  ✓

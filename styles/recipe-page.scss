@@ -64,6 +64,24 @@
   }
 }
 
+.method-container > p:nth-child(4), p:nth-child(6) {
+  margin-bottom: 4rem;
+
+  @media (max-width: 899px) {
+    margin-bottom: 1rem;
+  }
+}
+
+.method-flex {
+  display: flex;
+
+  @media (max-width: 499px) {
+    flex-direction: column;
+  }
+}
+
+
+
 .description-container {
   align-items: center;
   display: flex;
@@ -106,6 +124,14 @@
   }
 }
 
+.paragraph {
+  @media (max-width: 499px) {
+    text-align: justify;
+  }
+}
+
 .img {
   margin-right: 1rem;
 }
+
+
