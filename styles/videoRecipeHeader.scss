@@ -34,10 +34,33 @@
   margin-top: 1rem;
 }
 
-.hero-section-description-container {
+.hero-description-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
   margin-bottom: 2rem;
 
+  @media (max-width: 899px) {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @media (max-width: 499px) {
+    flex-direction: column;
+  }
+
+  .hero-description-item-container {
+    display: flex;
+  }
+
+  img {
+    height: 24px;
+    width: 24px;
+  }
+
   .hero-section-first-word {
+    align-items: center;
     color: #fff;
     font-family: 'Poppins';
     font-size: 18px;
@@ -45,12 +68,12 @@
   }
 
   .hero-section-second-word {
-    color: #5e5b69;
     color: #fff;
     font-family: 'Poppins';
     font-size: 18px;
     font-weight: 300;
     margin-right: 1rem;
+    padding-left: 3px;
   }
 }
 
@@ -86,8 +109,8 @@
 
 .oval-icon {
   position: absolute;
-  top: 32%;
   right: 17%;
+  top: 32%;
 }
 
 .mobile-size-text {
@@ -101,6 +124,5 @@
     font-family: 'Poppins';
     line-height: 24px;
     margin-bottom: 20px;
-
   }
 }
