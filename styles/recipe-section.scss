@@ -71,6 +71,16 @@
 
 .vid-mynd > .vid-imgs {
   width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.imgtest {
+  opacity: 0%;
+
+}
+.vid-mynd:hover img {
+  opacity: 100%;
+  cursor: pointer;
 }
 
 .video-checkbox {
