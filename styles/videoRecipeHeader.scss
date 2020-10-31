@@ -54,7 +54,7 @@
     display: flex;
   }
 
-  img {
+  .img {
     height: 24px;
     width: 24px;
   }
@@ -124,5 +124,19 @@
     font-family: 'Poppins';
     line-height: 24px;
     margin-bottom: 20px;
+  }
+
+  .hero-description-item-container:first-child {
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .hero-description-item-container:first-child {
+    margin-left: 0;
+  }
+
+  .oval-icon {
+    display: none;
   }
 }

@@ -18,3 +18,13 @@ To do
     * Position: top og right fix. ✓
  -HTML validator (shit)
   -Laga takka.  ✓
+
+  Laga takka á All.html
+  Laga takka á index.html
+  bæta við lax sushi rolls
+  Laga hamburger á all.html  ✓
+  Hamburger á videorecipe  ✓
+  LINT
+
+
+

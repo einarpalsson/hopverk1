@@ -8,7 +8,7 @@
     <title>Hópverkefni 1</title>
   </head>
   <body>
-    <header>
+    <header class="">
       <div class="fixed-header">
         <div class="grid">
           <div class="row">
@@ -19,14 +19,24 @@
                     ><img src="/img/logo.svg" alt="logo"
                   /></a>
                 </div>
+
+                <div class="burger" onclick="window.toggle_menu()">
+                  <!--óli approves-->
+                  <img class="lines" src="/img/burger.svg" alt="Hamburger" />
+                  <img class="ex" src="/img/x.svg" alt="X" />
+                </div>
+
                 <div class="nav-links">
-                  <a class="header-selection" href="/pages/recipe.html"
+                  <a class="header-selection mobile-selection" href="index.html"
+                    >Home</a
+                  >
+                  <a class="header-selection" href="./pages/recipe.html"
                     >Recipes</a
                   >
-                  <a class="header-selection" href="/pages/videoRecipe.html"
+                  <a class="header-selection" href="./pages/videoRecipe.html"
                     >Videos</a
                   >
-                  <a class="header-selection" href="">All recipes</a>
+                  <a class="header-selection" href="/pages/All.html">All recipes</a>
                 </div>
               </div>
             </div>
@@ -34,6 +44,7 @@
         </div>
       </div>
     </header>
+
     <div class="hero-section">
       <div class="grid">
         <div class="row">
@@ -335,5 +346,7 @@
         </div>
       </section>
     </footer>
+
+    <script src="/script.js"></script>
   </body>
 </html>
