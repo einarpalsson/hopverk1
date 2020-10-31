@@ -16,15 +16,18 @@ To do
     smá margin í media query ✓
   -Skoða takka á videoheader  ✓
     * Position: top og right fix. ✓
- -HTML validator (shit)
+
   -Laga takka.  ✓
 
-  Laga takka á All.html
-  Laga takka á index.html
-  bæta við lax sushi rolls
+  Laga takka á All.html     --------
+  Laga takka á index.html   --------
+  bæta við lax sushi rolls  --------
+  LINT                      --------
   Laga hamburger á all.html  ✓
   Hamburger á videorecipe  ✓
-  LINT
+  HTML validator (shit) ✓
+    <a href vantar> lína 38 ✓
+    <a href vantar> lína 354 ✓
 
 
 
