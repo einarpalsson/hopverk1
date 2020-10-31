@@ -1,6 +1,5 @@
 To do
-  -mobile fyrir all.html
-  -2 auka síður?
+  -mobile fyrir all.html ✓
   -Header ves recipesíða ✓
     bæta við row ✓
     flexa ✓

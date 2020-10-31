@@ -39,7 +39,7 @@ Verkefnið er unnið í HTML og CSS, þar sem CSS hlutinn er útfærður með SC
 
 >Þessi skjöl eru keyrð í gegnum `styles.scss` sem er "aðal" scss skjalið og útfrá því verður `styles.css` til. 
 
-Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er með allar "scriptur" verkefnisins, `grid-overlay.css` sem er viðmiðunarskjal fyrir grid og svo `/img` mappan en hún inniheldur allar myndir sem sjá má víðs vegar á vefsíðunni.
+Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er með allar "scriptur" verkefnisins, `grid-overlay.css` sem er viðmiðunarskjal fyrir grid og svo `/img` mappan en hún inniheldur allar myndir sem sjá má víðs vegar á vefsíðunni. Viljum benda á að breytt var "About us" í "All recipes" því okkur fannst það eiga betur við.
 
 
 ## Hópmeðlimir
