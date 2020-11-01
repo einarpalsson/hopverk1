@@ -21,7 +21,7 @@ To do
 
   Laga takka á All.html     --------  ✓
   Laga takka á index.html   --------  ✓
-  bæta við lax sushi rolls  --------
+  bæta við lax sushi rolls  --------  ✓
   LINT                      --------
   Laga hamburger á all.html  ✓
   Hamburger á videorecipe  ✓

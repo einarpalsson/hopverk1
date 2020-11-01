@@ -57,3 +57,5 @@ Annað sem fram kemur í verkefnamöppu eru skjöl eins og `package.json` sem er
 Gutter hjá okkur er 20px, í samanburði við 30px hjá Óla. `Stimmikex` athugaði þetta fyrir okkur og við fengum grænt ljós (það var meira vesen að breyta því en við gerðum ráð fyrir).
 
 Notast var við Javascript kóða við útfærslu "hamborgara" valmyndarinnar og komumst við að því seinna meir að slíkan kóða ber að forðast en spurt var Óla og honum fannst þetta í fínu lagi. Athugasemdum var bætt í kóða á þeim stöðum sem það átti við. 
+
+Ein villa kemur hjá okkur þegar við keyrum `npm run lint` en ákveðið var að breyta engu þar.
