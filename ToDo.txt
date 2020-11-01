@@ -19,8 +19,8 @@ To do
 
   -Laga takka.  ✓
 
-  Laga takka á All.html     --------
-  Laga takka á index.html   --------
+  Laga takka á All.html     --------  ✓
+  Laga takka á index.html   --------  ✓
   bæta við lax sushi rolls  --------
   LINT                      --------
   Laga hamburger á all.html  ✓
